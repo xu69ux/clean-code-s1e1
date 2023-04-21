@@ -149,12 +149,6 @@ body {
   transform: rotateZ(0);
 }
 
-/* Completed */
-/* ul#completed-tasks label {
-    text-decoration: line-through;
-    color: #888;
-} */
-
 /* Edit Task */
 .to-do__completed-tasks .to-do__input,
 .to-do__view-mode .to-do__input {
