@@ -46,7 +46,7 @@ body {
 .to-do {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 12px auto 0;
 }
 
 .to-do__label,
