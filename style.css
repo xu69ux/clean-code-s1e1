@@ -32,7 +32,7 @@ body {
 }
 
 .header .header__link {
-  font-family: fantasy, cursive;
+  font-family: Fantasy, cursive;
 }
 
 @media (max-width:768px) {
