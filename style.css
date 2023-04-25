@@ -163,3 +163,9 @@ body {
 .to-do__edit-mode .to-do__label {
   display: none;
 }
+
+/* Completed */
+.to-do__completed-tasks .to-do__label {
+    text-decoration: line-through;
+    color: #888;
+}
