@@ -135,6 +135,7 @@ var taskIncomplete=function(){
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
+    listItem.classList.add('to-do__view-mode');
     bindTaskEvents(listItem,taskCompleted);
 }
 
