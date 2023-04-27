@@ -92,8 +92,10 @@ var editTask=function(){
 
         //switch to .editmode
         //label becomes the inputs value.
+        console.log('END EDIT')
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        listItem.classList.add("to-do__view-mode");
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
